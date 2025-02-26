@@ -27,7 +27,7 @@ def encrypt_file(file_path, key):
 # Step 4: Creating Main Script
 if __name__ == "__main__":
     # Hardcoded file path
-    file_path = r"E:\Demo.docx"
+    file_path = r"D:\test.docx"
 
     # Debugging: Print the file path to ensure it is correct
     print("Attempting to encrypt file at path:", file_path)
