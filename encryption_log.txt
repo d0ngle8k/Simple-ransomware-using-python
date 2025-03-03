@@ -1,0 +1,32 @@
+2025-03-03 15:00:59,973:INFO:Key generated successfully.
+2025-03-03 15:00:59,973:INFO:Processing drive F:
+2025-03-03 15:00:59,974:INFO:Created important files in 'F:D-Data'.
+2025-03-03 15:00:59,976:INFO:Encrypted F:READ_ME_FOR_DECRYPTION.txt
+2025-03-03 15:00:59,977:INFO:Encrypted F:D-Data\Annual_Report_2022.docx
+2025-03-03 15:00:59,979:INFO:Encrypted F:D-Data\Employee_Contacts.pdf
+2025-03-03 15:00:59,981:INFO:Encrypted F:D-Data\Financials_Q3.xlsx
+2025-03-03 15:00:59,981:INFO:All files in F: encrypted successfully.
+2025-03-03 15:00:59,982:INFO:User manual created successfully.
+2025-03-03 15:00:59,983:INFO:Machine ID saved successfully to F:Machine_id.txt.
+2025-03-03 15:00:59,983:INFO:Processing drive E:
+2025-03-03 15:00:59,984:INFO:Created important files in 'E:D-Data'.
+2025-03-03 15:00:59,985:INFO:Encrypted E:encryption_key.txt
+2025-03-03 15:00:59,986:INFO:Encrypted E:READ_ME_FOR_DECRYPTION.txt
+2025-03-03 15:00:59,988:INFO:Encrypted E:D-Data\Annual_Report_2022.docx
+2025-03-03 15:00:59,991:INFO:Encrypted E:D-Data\Employee_Contacts.pdf
+2025-03-03 15:00:59,992:INFO:Encrypted E:D-Data\Financials_Q3.xlsx
+2025-03-03 15:00:59,992:INFO:All files in E: encrypted successfully.
+2025-03-03 15:00:59,993:INFO:User manual created successfully.
+2025-03-03 15:00:59,993:INFO:Machine ID saved successfully to E:Machine_id.txt.
+2025-03-03 15:00:59,993:INFO:Processing drive D:
+2025-03-03 15:00:59,994:INFO:Created important files in 'D:D-Data'.
+2025-03-03 15:00:59,994:INFO:Encrypted D:READ_ME_FOR_DECRYPTION.txt
+2025-03-03 15:00:59,996:INFO:Encrypted D:D-Data\Annual_Report_2022.docx
+2025-03-03 15:00:59,997:INFO:Encrypted D:D-Data\Employee_Contacts.pdf
+2025-03-03 15:00:59,998:INFO:Encrypted D:D-Data\Financials_Q3.xlsx
+2025-03-03 15:00:59,999:INFO:All files in D: encrypted successfully.
+2025-03-03 15:00:59,999:INFO:User manual created successfully.
+2025-03-03 15:00:59,999:INFO:Machine ID saved successfully to D:Machine_id.txt.
+2025-03-03 15:01:00,000:INFO:Encryption key saved locally to E:encryption_key.txt.
+2025-03-03 15:01:00,000:INFO:Encryption key saved locally.
+2025-03-03 15:01:00,000:INFO:Attempt 1 to send encryption key.
