@@ -1,0 +1,150 @@
+/* Step 1: Global Styles */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #101010;
+    color: #0f0; /* Classic green for text */
+}
+
+
+/* Step 2: Profile Management Box */
+.profile-management {
+    background: #1a1a1a; /* Dark background for main content box */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+    max-width: 600px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+
+/* Step 3: Hover Effect on Profile Management Box */
+.profile-management:hover {
+    transform: translateY(-10px);
+}
+
+
+/* Step 4: Headings */
+.profile-management h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff8c00; /* Orange heading */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #0f0;
+    padding-bottom: 10px;
+}
+
+
+/* Step 4: Labels */
+.profile-management label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #ff8c00; /* Orange labels */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+/* Step 5: Input Container */
+.profile-management .input-container {
+    position: relative;
+}
+
+
+/* Step 6: Profile Picture */
+.profile-management img {
+    display: block;
+    margin: 10px auto;
+    max-width: 120px;
+    border-radius: 50%;
+    border: 2px solid #0f0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Step 7: Form Input Styles */
+.profile-management input[type="text"], 
+.profile-management input[type="password"], 
+.profile-management input[type="file"], 
+.profile-management input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #0f0; /* Classic green border */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #101010; /* Same as body background */
+    color: #0f0; /* Classic green text */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Step 8: Form Input Focus Styles */
+.profile-management input[type="text"]:focus, 
+.profile-management input[type="password"]:focus, 
+.profile-management input[type="file"]:focus {
+    border-color: #ff8c00; /* Orange border for focus */
+    box-shadow: 0 2px 8px rgba(255, 140, 0, 0.5);
+    outline: none;
+}
+
+
+/* Step 9: Show Password Checkbox */
+.profile-management #show-password {
+    margin-left: 10px;
+    vertical-align: middle;
+    color: #ff8c00;
+    cursor: pointer;
+}
+
+
+/* Step 10: Submit Button Styles */
+.profile-management input[type="submit"] {
+    background-color: #ff8c00; /* Orange background */
+    color: #101010; /* Dark text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* Step 11: Hover and Focus Effect on Submit Button */
+.profile-management input[type="submit"]:hover, 
+.profile-management input[type="submit"]:focus {
+    background-color: #0f0; /* Classic green background on hover */
+    color: #101010; /* Dark text color */
+    transform: translateY(-5px);
+}
+
+
+/* Step 12: Messages */
+.message {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Step 13: Success Message */
+.message.success {
+    background-color: #0f0; /* Classic green for success messages */
+    border: 1px solid #005500; /* Dark green border */
+    color: #101010; /* Dark text */
+}
+
+
+/* Step 14: Error Message */
+.message.error {
+    background-color: #ff0000; /* Red for error messages */
+    border: 1px solid #990000; /* Dark red border */
+    color: #101010; /* Dark text */
+}
+

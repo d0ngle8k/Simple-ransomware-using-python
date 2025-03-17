@@ -1,0 +1,123 @@
+/* Step 1: Hacker style updates */
+
+
+/* Step 1.1: Global Reset and Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Step 1.2: Body Styling */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #0f0f0f; /* Dark background for hacker feel */
+    color: #33ff33; /* Bright green text for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* Step 1.3: Login Container Styling */
+.login {
+    background-color: #121212; /* Slightly lighter dark background for the form */
+    border: 1px solid #0f0; /* Bright green border */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+}
+
+
+/* Step 1.4: Header Styling */
+.login h2 {
+    color: #33ff33; /* Bright green header */
+    text-align: center;
+}
+
+
+/* Step 1.5: Form Styling */
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Step 1.6: Form Elements Container Styling */
+.login form div {
+    margin: 10px 0;
+}
+
+
+/* Step 1.7: Label Styling */
+.login form label {
+    color: #33ff33; /* Bright green label */
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+/* Step 1.8: Input Field Styling */
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #1a1a1a; /* Darker input fields */
+    color: #33ff33; /* Bright green text */
+    border: 1px solid #33ff33; /* Bright green border */
+    border-radius: 5px;
+}
+
+
+/* Step 1.9: Button Styling */
+.login input[type="submit"],
+.login input[type="reset"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #003300; /* Dark green background for buttons */
+    color: #33ff33;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.login input[type="submit"]:hover,
+.login input[type="reset"]:hover {
+    background-color: #005500; /* Slightly lighter green for button hover */
+}
+
+
+/* Step 1.10: Link Styling */
+.login a {
+    color: #33ff33; /* Bright green link */
+    text-decoration: none;
+}
+
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+
+/* Step 1.11: Error Message Styling */
+.login .error {
+    color: #ff3333; /* Red text for errors */
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+/* Step 2: Responsive CSS */
+@media (max-width: 768px) {
+    .login {
+        max-width: 90%;
+    }
+}
+

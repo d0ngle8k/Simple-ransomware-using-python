@@ -1,0 +1,55 @@
+/* Step 1: Basic Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
+
+
+/* Step 2: Message Box Styling */
+.message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+/* Step 3: Success Message Styling */
+.success {
+    background-color: #e9ffe7;
+    border: 1px solid #3cad00;
+}
+
+
+/* Step 4: Error Message Styling */
+.error {
+    background-color: #ffe6e6;
+    border: 1px solid #dc2f02;
+}
+
+
+/* Step 5: Info Message Styling */
+.info {
+    background-color: #e7f3ff;
+    border: 1px solid #2196F3;
+}
+
+
+/* Step 6: Button Styling */
+.button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.button:hover {
+    background-color: #0056b3;
+}
+

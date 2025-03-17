@@ -1,0 +1,111 @@
+/* Step 1: Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace; /* Classic terminal font */
+}
+
+
+/* Step 2: Body styling */
+body {
+    background-color: #0f0f0f; /* Dark background for terminal feel */
+    color: #33ff33; /* Neon green text to mimic terminal display */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+/* Step 3: Container styling for the login form */
+.hacker-login {
+    background-color: #121212; /* Slightly lighter dark background for contrast */
+    border: 1px solid #33ff33; /* Neon green border */
+    border-radius: 10px;
+    box-shadow: 0 0 20px #33ff33; /* Glowing effect */
+    max-width: 400px;
+    width: 90%;
+    padding: 20px;
+    opacity: 0.95;
+}
+
+
+/* Step 4: Heading styling */
+.hacker-login h2 {
+    text-align: center;
+    color: #33ff33;
+}
+
+
+/* Step 5: Form styling */
+.hacker-login form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Step 6: Input container styling */
+.hacker-input {
+    margin: 15px 0;
+}
+
+
+.hacker-input label {
+    color: #33ff33;
+    font-size: 18px;
+}
+
+
+.hacker-input input[type="text"],
+.hacker-input input[type="password"] {
+    padding: 10px;
+    background-color: #000; /* Dark fields to match the theme */
+    border: 1px solid #33ff33; /* Neon green outline */
+    color: #33ff33; /* Neon green text */
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+/* Step 7: Button styling */
+.hacker-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.hacker-button input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #33ff33; /* Neon green button */
+    color: #000; /* Black text for contrast */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+
+.hacker-button input[type="submit"]:hover {
+    background-color: #28a745; /* Slightly darker green on hover */
+}
+
+
+/* Step 8: Error message styling */
+.error {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+/* Step 9: Responsive adjustments */
+@media (max-width: 768px) {
+    .hacker-login {
+        max-width: 90%;
+    }
+}
+

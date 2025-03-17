@@ -1,0 +1,111 @@
+/* Step 1: Base styling to optimize readability and contrast */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #101010; /* Optimize readability and contrast */
+    color: #8c8c8c;
+}
+
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+
+#sidebar {
+    min-width: 250px;
+    background-color: #262626;
+    color: #d1d1d1;
+    transition: all 0.3s;
+}
+
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+
+.sidebar-header img {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+
+.sidebar-header {
+    padding: 20px;
+    background-color: #2d2d2d;
+    text-align: center;
+}
+
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #ff8c00; /* Maintain this color for clarity */
+}
+
+
+#sidebar ul li a:hover {
+    color: #ffffff; /* Clear visibility on hover */
+}
+
+
+#sidebarCollapse {
+    background-color: #0f0;
+    color: #111;
+}
+
+
+#content {
+    width: 100%;
+    padding: 20px;
+    transition: all 0.3s;
+}
+
+
+#content h1 {
+    color: #ffffff;
+}
+
+
+/* Step 2: Responsive adjustments */
+@media (max-width: 767px) {
+    #sidebar {
+        width: 100%;
+        position: fixed;
+        left: -100%;
+        bottom: 0;
+    }
+
+
+    #sidebar.active {
+        left: 0;
+    }
+
+
+    #content.active {
+        margin-left: 0;
+    }
+
+
+    #sidebarCollapse {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 9999;
+    }
+}
+
+
+/* Step 3: Styling for table hover for better visibility */
+.table-hover tbody tr:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
