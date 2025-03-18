@@ -6,15 +6,25 @@ Let's create an Ransomware that's able to hi-jack the victim computer! We'll be 
 
 ## Installation
 
-**First, clone this repository and install Python version 3.12.4**
+**First, clone this repository (make sure you already install gitbash) **
 
 ```bash
 git clone https://github.com/DogguG/Simple-Ransomware-
 ```
 
+```bash
+https://git-scm.com/downloads
+```
+
+**Next install Python version 3.12.4**
+
+```bash
+https://www.python.org/ftp/python/3.12.4/python-3.12.4-amd64.exe
+```
+
 **Next, create a virtual environment**
 
-The command below is for a virtual environment Venv then active Virtual Environment using below command.
+ Active Virtual Environment using below command.
 ```bash
 .\.venv\Scripts\activate
 ```
@@ -40,8 +50,6 @@ Select folder contain img and .venv.
 Select transfer .py to .exe and we done.
 
 # For more information, please go to tutorial by clicking below icon
-
-## Resources
 
 ### YouTube Tutorial
 
