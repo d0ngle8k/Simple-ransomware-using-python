@@ -3,7 +3,9 @@
 
 Let's create an Ransomware that's able to hi-jack the victim computer! We'll be using Advanced Encryption Standard AES algorithm to do this.
 ## Document
+```bash
 https://deepwiki.com/DogguG/Simple-Ransomware-
+```
 ## Installation
 
 **First, clone this repository (make sure you already install gitbash) **
