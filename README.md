@@ -2,8 +2,8 @@
 ## THIS IS FOR EDUCATIONAL PURPOSE, YOU CAN CLONE THIS FOR SCHOOL PROJECT OR DOING RESEARCH ON YOUR OWN, DO NOT USE THIS TO HURT PEOPLE!!! I WILL NOT RESPONSIBLE FOR YOUR ACTION!
 
 Let's create an Ransomware that's able to hi-jack the victim computer! We'll be using Advanced Encryption Standard AES algorithm to do this.
-
-
+## Document
+https://deepwiki.com/DogguG/Simple-Ransomware-
 ## Installation
 
 **First, clone this repository (make sure you already install gitbash) **
@@ -47,7 +47,7 @@ Choose rans.py and icon from img folder.
 
 Select folder contain img and .venv.
 
-Select transfer .py to .exe and we done.
+Select transfer .py to .exe.
 
 # For more information, please go to tutorial by clicking below icon
 
